@@ -1,0 +1,7 @@
+# eclipse and maven generated files
+**/.settings
+**/target
+**/.classpath
+**/.project
+**/.sts4-cache
+**/test-output

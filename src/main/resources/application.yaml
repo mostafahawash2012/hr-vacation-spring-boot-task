@@ -1,0 +1,17 @@
+spring:
+  application: 
+    name: hr-system
+  datasource:
+    url: jdbc:mysql://localhost:3306/hr-system
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties: 
+      hibernate: 
+        format_sql: true
